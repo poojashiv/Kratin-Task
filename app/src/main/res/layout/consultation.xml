@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/formbg"
+                android:text=" Our Specialist Doctors!"
+                android:textColor="@color/purple_700"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/formbg"
+                android:drawablePadding="5dp"
+                android:text="HEART SPECIALIST"
+                android:textColor="@color/red"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/formbg"
+                android:drawablePadding="5dp"
+                android:textAlignment="center"
+                android:text="NAME:DR.AMOL KADU |
+MBBS,MDS
+Heart specialist is a term applied to any of a number of trained professionals who provide medical care directly involving the heart. Four important types of heart specialist are cardiovascular technician, cardiovascular technologist, cardiologist, and cardiac surgeon."
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/formbg"
+                android:drawablePadding="5dp"
+                android:text="CHILD SPECIALIST"
+                android:textColor="@color/red"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"  />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/formbg"
+                android:drawablePadding="5dp"
+                android:text="NAME:DR.NISHANT DURVE |
+MBBS,MDS    A child life specialist is a healthcare worker who is often employed in the pediatric department of a hospital among other venues. They work with children under 18 years of age "
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/formbg"
+                android:drawablePadding="5dp"
+                android:text="Women SPECIALIST"
+                android:textColor="@color/red"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/formbg"
+                android:drawablePadding="5dp"
+                android:text="NAME:DR.MAHIMA SUKLA |
+MBBS,MDS  Our Physicians are women’s health Specialists who are Board Certified or on track for Board Certification. Our credentials ensure the highest level of care and professional standards of care for women. Our team practices to one standard and that is excellence."
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/red"
+                android:drawablePadding="5dp"
+                android:background="@drawable/formbg"
+                android:text="Surgery Specialist"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"
+                android:textAlignment="center" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="5dp"
+                android:background="@drawable/formbg"
+                android:text="NAME:DR.VIJU KALE |
+MBBS,MDS   A general surgeon is a specialist who is trained to diagnose, treat, and manage patients with a broad spectrum of surgical conditions affecting almost any area of the body. The surgeon establishes the diagnosis and provides the preoperative, operative, and postoperative care to patients "
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient1"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:text=" We Are Here To Help You !"
+        android:textColor="@color/purple_700"
+        android:background="@drawable/formbg"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/red"
+        android:drawablePadding="5dp"
+        android:background="@drawable/formbg"
+        android:text="MUST TAKE FOOD"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/blue"
+        android:drawablePadding="5dp"
+        android:background="@drawable/formbg"
+        android:text="Eat a variety of healthy foods from all the food groups. Eat fruits, vegetables, whole grains, and fat-free or low-fat dairy foods. Whole grains include whole-wheat breads, cereals, pasta, and brown rice. Choose lean meats, poultry (chicken and turkey), fish, beans, eggs, and nuts.
+"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/red"
+        android:drawablePadding="5dp"
+        android:background="@drawable/formbg"
+        android:text="AVOID TO FOOD"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/blue"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="5dp"
+        android:background="@drawable/formbg"
+        android:text="In general, avoid all solid and fibrous foods. Avoid solids such as all breads and rice, fruits, vegetables, meats, eggs, legumes, nuts and dairy products. You should also avoid milk, juices with pulp, meat and vegetable soups and mixed drinks.
+"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/formbg"
+                android:drawablePadding="5dp"
+                android:text="PROTEINS"
+                android:textColor="@color/red"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/formbg"
+                android:drawablePadding="5dp"
+                android:textAlignment="center"
+                android:text="Many foods contain protein (say: PRO-teen), but the best sources are beef, poultry, fish, eggs, dairy products, nuts, seeds, and legumes like black beans and lentils."
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/formbg"
+                android:drawablePadding="5dp"
+                android:text="DAIRY PRODUCTS"
+                android:textColor="@color/red"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/formbg"
+                android:drawablePadding="5dp"
+                android:textAlignment="center"
+                android:text="There are calcium choices for those who do not consume dairy products, though they are not part of the Dairy Group. The amount of calcium that can be absorbed from these foods varies. Calcium-fortified juices and calcium-fortified plant-based milk alternatives such as rice milk or almond milk; Canned fish (sardines, salmon with bones)"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

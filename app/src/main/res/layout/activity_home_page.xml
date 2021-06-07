@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomePageActivity"
+    android:background="@drawable/gradient1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="We Are Here To Help You !"
+        android:drawableStart="@drawable/ic_help"
+        android:textColor="@color/purple_700"
+        android:background="@drawable/formbg"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/ic_help"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/ic_consult"
+        android:drawablePadding="5dp"
+        android:background="@drawable/formbg"
+        android:text="Online Consultation"
+        android:textSize="28sp"
+        android:drawableLeft="@drawable/ic_consult" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:drawableStart="@drawable/ic_exercise"
+        android:background="@drawable/formbg"
+        android:textSize="30sp"
+        android:text="Exercise"
+        android:drawableLeft="@drawable/ic_exercise" />
+
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/formbg"
+            android:drawableStart="@drawable/ic_care"
+            android:textColor="@color/black"
+            android:text="Health Care"
+            android:textSize="30sp"
+            android:drawableLeft="@drawable/ic_care" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/formbg"
+            android:drawableStart="@drawable/ic_notification"
+            android:textSize="30sp"
+            android:text="Daily Alert"
+            android:drawableLeft="@drawable/ic_notification" />
+
+</LinearLayout>
